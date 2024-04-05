@@ -1,6 +1,6 @@
 :root {
-    --bg: white;
-    --fg: black;
+    --bg: black;
+    --fg: white;
     --fg-secondary: #313338;
     --fg-semi-trans: rgb(0 0 0 / 0.2);
     --link: #006ce7;
