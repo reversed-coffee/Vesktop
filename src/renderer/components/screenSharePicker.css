@@ -17,7 +17,7 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.vcd-screen-picker-settings-grid > div {
+.vcd-screen-picker-settings-grid>div {
     display: flex;
     flex-direction: column;
 }
@@ -38,7 +38,7 @@
 }
 
 .vcd-screen-picker-selected img {
-    border: 2px solid var(--brand-experiment);
+    border: 2px solid var(--brand-500);
     border-radius: 3px;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .vcd-screen-picker-grid label:hover {
-    outline: 2px solid var(--brand-experiment);
+    outline: 2px solid var(--brand-500);
 }
 
 
@@ -67,8 +67,13 @@
     box-sizing: border-box;
 }
 
-.vcd-screen-picker-preview img {
+.vcd-screen-picker-preview-img-linux {
     width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.vcd-screen-picker-preview-img {
+    width: 90%;
     margin-bottom: 0.5em;
 }
 
@@ -96,8 +101,8 @@
 }
 
 .vcd-screen-picker-radio[data-checked="true"] {
-    background-color: var(--brand-experiment);
-    border-color: var(--brand-experiment);
+    background-color: var(--brand-500);
+    border-color: var(--brand-500);
 }
 
 .vcd-screen-picker-radio[data-checked="true"] h2 {
